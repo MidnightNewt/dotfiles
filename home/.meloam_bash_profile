@@ -7,9 +7,6 @@ if [ ! -e $MY_TTY ]; then
     return
 fi
 TTY_OWNER=`ls -ld ${MY_TTY}  | awk '{print $3}'`
-if [ $TTY_OWNER != 'meloam' ]; then
-    return
-fi
 
 # Load RVM, if you are using it
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
