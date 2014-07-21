@@ -82,3 +82,10 @@ fi
 
 
 [[ -r ~/.bashrc ]] && . ~/.bashrc
+
+#Anna's aliases
+alias proj='cd ~/Projects'
+alias book='cd ~/Projects/Interview-Prep/CTCI_Problems'
+alias top='cd ~/Projects/Interview-Prep/Topcoder_Problems'
+alias kata='cd ~/Projects/Interview-Prep/Kata-Site'
+
